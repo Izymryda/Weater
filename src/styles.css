@@ -1,0 +1,130 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  overflow: hidden;
+  color: #292d31;
+}
+
+#app-img {
+  margin: 50px 50px;
+  border-radius: 12px;
+  background: url(./img/polina-rytova-1dGMs4hhcVA-unsplash.jpg);
+  background-size: 100% 100%;
+}
+.bold {
+  font-weight: bold;
+}
+.app {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  width: max-content;
+  margin-right: 0px;
+}
+li {
+  display: inline;
+  padding: 5px 15px 5px 0px;
+  color: #f7ce00;
+}
+a {
+  color: #004691;
+  font-size: 18px;
+}
+.city-name {
+  padding: 0px 5px;
+  display: inline-block;
+}
+.logo {
+  text-align: right;
+  display: inline-block;
+}
+logo img {
+  width: 30px;
+  height: 30px;
+}
+.search-form {
+  margin-top: 20px;
+}
+.search-form input {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  margin-right: 5px;
+  padding: 8px 10px;
+  font-size: calc(8px + 0.7vw);
+  border-radius: 15px;
+  border: none;
+}
+form {
+  display: flex;
+}
+
+.current-city {
+  display: inline-flex;
+}
+.weather-icon {
+  display: block;
+  margin: 15px;
+}
+.weather-icon img {
+  width: 90px;
+  padding: 3px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 1px 10px;
+}
+.current-city-weather h2 {
+  font-size: 44px;
+}
+.current-city-weather a {
+  font-size: 44px;
+  text-decoration: none;
+  color: #292d31;
+}
+.current-city-weather {
+  margin: 15px 10px 15px 0px;
+}
+.current-more {
+  padding: 15px 10px;
+  margin: 5px 10px;
+}
+#current-day,
+#current-time,
+.current-precip,
+.precip-value,
+.current-wind,
+.wind-value {
+  display: inline;
+}
+.current-value {
+  margin: 5px 15px;
+  padding: 15px 10px;
+}
+.float-end {
+  margin: 0px 5px;
+}
+.col-1 {
+  width: 12%;
+}
+.col-2 {
+  width: 20%;
+}
+.col-10 {
+  width: 70%;
+}
+.card {
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+  margin: 0;
+}
+.card-body img {
+  width: 60%;
+}
+.card-text {
+  font-size: calc(8px + 0.7vw);
+  font-weight: 900;
+}
