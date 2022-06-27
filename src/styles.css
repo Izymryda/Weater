@@ -8,7 +8,7 @@ body {
 #app-img {
   margin: 50px 50px;
   border-radius: 12px;
-  background: url(~/img/fon.jpg);
+  background: url(../img/fon.jpg);
   background-size: 100% 100%;
 }
 .bold {
